@@ -1,0 +1,15 @@
+# TODO List for Vasset Project
+
+## Features to Implement
+- [ ] CI/CD pipeline
+- [ ] Sync up endpoints to UI - Login & Signup flows (email)
+- [ ] Deposit assets - webhooks to verify transactions.
+- [ ] Asset management
+- [ ] Withdrawal/Loan 
+
+## Bugs to Fix
+- [ ] 
+
+## Improvements
+- [ ] Load the sqlalchemy.url in the alembic.ini file from environment variables.
+- [ ] Optimize database queries
