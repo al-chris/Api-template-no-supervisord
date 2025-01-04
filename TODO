@@ -11,5 +11,5 @@
 - [ ] 
 
 ## Improvements
-- [ ] Load the sqlalchemy.url in the alembic.ini file from environment variables.
+- [-] Load the sqlalchemy.url in the alembic.ini file from environment variables.
 - [ ] Optimize database queries
