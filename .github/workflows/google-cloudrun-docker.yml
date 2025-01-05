@@ -57,7 +57,7 @@ on:
 env:
   PROJECT_ID: 'api-template-no-supervisord'
   REGION: 'europe-north1' # TODO: update to your region
-  SERVICE: ${{ SERVICE }} # TODO: update to your service name
+  SERVICE: ${{ secrets.SERVICE }} # TODO: update to your service name
   WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
 
 jobs:
