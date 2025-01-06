@@ -56,7 +56,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
-  REGION: $`{{ secrets.REGION }}
+  REGION: ${{ secrets.REGION }}
   SERVICE: ${{ secrets.SERVICE }}
   WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
 
